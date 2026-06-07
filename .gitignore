@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment
+.env
+.env.local
+
+# Generated artefacts
+data/audio/*
+!data/audio/.gitkeep
+data/transcript/*
+!data/transcript/.gitkeep
+embeddings/*
+!embeddings/.gitkeep
+
+# IDE
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
