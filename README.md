@@ -263,9 +263,3 @@ Build a small `eval.jsonl` of `{"question": ..., "gold_timestamp": ..., "gold_an
 * **Evaluation harness** (`eval/`) with the metrics described above.
 * **Containerisation** with a `Dockerfile` and a `docker-compose.yml` that bundles ffmpeg.
 * **Use an open-source LLM** (Llama 3, Mistral, Qwen) via `Ollama` or `vLLM` to remove the OpenAI dependency. (OpenRouter already exposes many of these, so this is mostly relevant for fully-offline use.)
-
----
-
-## 📜 License
-
-MIT — feel free to fork, remix, and learn from this project.
